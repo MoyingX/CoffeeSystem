@@ -6,7 +6,8 @@ const store =  createStore({
     state:{
         searchHistoryList:[],
         sids:[],
-        isLogin:0   //0表示未登录，1表示登录
+        isLogin:0,   //0表示未登录，1表示登录
+        aid:''
     },
     mutations:{
         //  添加历史记录列表
@@ -34,6 +35,11 @@ const store =  createStore({
         //  控制登录状态
         useLogin(state,playload){
             state.isLogin = playload
+        },
+
+        //  点击编辑获取地址信息的唯一aid
+        getAid(state,playload){
+            state.aid = playload
         }
     },
     actions:{

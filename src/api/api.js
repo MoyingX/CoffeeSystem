@@ -192,6 +192,42 @@ export const DestroyAccount = (data) =>request({
     data
 })
 
+//  新增地址接口
+export const AddAddress = (data) =>request({
+    url:'/addAddress',
+    method:'post',
+    data
+})
+
+//  查询地址接口
+export const FindAddress = (params) =>request({
+    url:'/findAddress',
+    method:'get',
+    params
+})
+
+//  编辑地址接口
+export const EditAddress = (data) =>request({
+    url:'/editAddress',
+    method:'post',
+    data
+})
+
+//  根据地址aid查询地址接口
+export const FindAddressByAid = (params) =>request({
+    url:'/findAddressByAid',
+    method:'get',
+    params
+})
+
+
+//  删除地址接口
+export const DeleteAddress = (data) =>request({
+    url:'/deleteAddress',
+    method:'post',
+    data
+})
+
 //  退出登录接口(用不到此接口，我直接removelocalStorage)
 // export const Logout = (data) =>request({
 //     url:'/logout',

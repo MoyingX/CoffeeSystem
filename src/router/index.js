@@ -66,7 +66,16 @@ const routes = [
         name:'myAddress',
         component:()=>import('../components/MyAddress.vue'),
     },
-
+    {   //  新增地址页面
+        path:'/my/addAddress',
+        name:'addAddress',
+        component:()=>import('../components/AddAddress.vue'),
+    },
+    {   //  编辑地址页面
+        path:'/my/editAddress',
+        name:'editAddress',
+        component:()=>import('../components/EditAddress.vue'),
+    },
     {   //  我的安全中心
         path:'/my/mySafety',
         name:'mySafety',

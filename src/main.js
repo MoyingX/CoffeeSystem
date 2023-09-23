@@ -11,7 +11,8 @@ import { ConfigProvider,Button,Field,Tabbar,TabbarItem,Swipe,
     ActionBar, ActionBarIcon, ActionBarButton,
     Sidebar, SidebarItem,Loading,Icon,Cell,Dialog,
     Notify,Empty,SwipeCell,Card,Checkbox, CheckboxGroup,
-    SubmitBar,RadioGroup,Radio,Tab,Tabs,Overlay,Uploader 
+    SubmitBar,RadioGroup,Radio,Tab,Tabs,Overlay,Uploader,
+    Area,Switch 
 
 } from 'vant'
 import 'vant/lib/index.css';
@@ -57,4 +58,6 @@ app.use(router)
 .use(Tabs)
 .use(Overlay)
 .use(Uploader)
+.use(Area)
+.use(Switch)
 .mount('#app')

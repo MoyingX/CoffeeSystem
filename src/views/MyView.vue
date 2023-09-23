@@ -120,7 +120,7 @@ const clickCell = (index) =>{
     case 1:router.push('/my/myprofile'); break;
     case 2:router.push('/my/myOrder'); break;
     case 3:router.push('/my/myCollection'); break;
-    case 4:showToast('没写，别点'); break;
+    case 4:router.push('/my/myAddress'); break;
     case 5:router.push('/my/mySafety'); break;
   }
 }

@@ -1,4 +1,4 @@
-# vue222
+# Vue3瑞幸咖啡商城
 
 ## Project setup
 ```
